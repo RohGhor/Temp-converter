@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="9.css">
+</head>
+
+<body>
+    <form>
+        <h1>Temperature Conversion</h1>
+        <input type="number" id="text" value="0"><br>
+
+        <input type="radio" name="unit" id="far">
+        <label for="far">Celcius ➡️ Fahrenheit</label><br>
+
+        <input type="radio" name="unit" id="cel">
+        <label for="cel">Fahrenheit ➡️ Celcius</label><br>
+
+        <button type="button" onclick="covert()">Submit</button>
+        <!-- //if type here is submit then the para will flash if we directly submit -->
+        <p id="result"></p>
+    </form>
+
+    <script src="9.js"></script>
+</body>
+
+</html>
